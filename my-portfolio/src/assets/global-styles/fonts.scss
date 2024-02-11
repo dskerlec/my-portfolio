@@ -1,0 +1,34 @@
+@import '_vars.scss';
+//global styling for fonts
+body{
+    font-family:'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-normal {
+    font-weight: normal !important;
+}
+
+.font-bold {
+    font-weight: $bold-weight !important;
+}
+
+.font-start, .font-left {
+    text-align: left;
+}
+
+.font-center {
+    text-align: center;
+}
+
+.font-end, .font-right {
+    text-align: right;
+}

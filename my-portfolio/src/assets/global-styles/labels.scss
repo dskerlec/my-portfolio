@@ -1,0 +1,7 @@
+@import '_vars.scss';
+//global styling for labels
+label {
+    font-weight: bold;
+    display: block;
+    color: $body;
+}
