@@ -1,11 +1,23 @@
 @import '_vars.scss';
 //global styles for headings
 h1,h2,h3,h4,h5,h6 {
-    color: $headers;
+    color: #051f38;
     font-weight: bold;
     line-height: normal;
     margin: 0 0 5px;
     padding: 0;
+
+    // test
+    text-shadow:
+    /* Outline */
+    -1px -1px 0 #FAF9F7,
+    1px -1px 0 #FAF9F7,
+    -1px 1px 0 #FAF9F7,
+    1px 1px 0 #FAF9F7,  
+    -2px 0 0 #FAF9F7,
+    2px 0 0 #FAF9F7,
+    0 2px 0 #FAF9F7,
+    0 -2px 0 #FAF9F7;
 }
 
 h1 {

@@ -1,16 +1,19 @@
 @import '_vars.scss';
 //global styling for fonts
 body{
-    font-family:'Montserrat', sans-serif;
+    font-family: sans-serif;
     height: 100vh;
+    color: #051f38;
 }
 
 .font-14 {
     font-size: 14px;
+    color: #051f38;
 }
 
 .font-16 {
     font-size: 16px;
+    color: #051f38;
 }
 
 .font-normal {

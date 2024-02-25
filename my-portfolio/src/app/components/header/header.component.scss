@@ -1,0 +1,48 @@
+.header-content {
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    box-shadow: 0 0 2rem #051f38;
+}
+
+.menu-icon {
+    height: 2rem;
+    width: auto;
+    padding: 0.5rem 1rem;
+}
+
+.header-logo {
+    width: 3rem;
+    height: auto;
+    padding: .3rem;
+}
+
+.sidenav-container {
+    height: 100%;
+}
+
+.sidenav-drawer {
+    width: 20rem;
+    height: 50rem;
+    border: 1px solid #051f38;
+    border-radius: .3rem;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #051f38;
+    text-shadow:
+    /* Outline */
+    -1px -1px 0 #FAF9F7,
+    1px -1px 0 #FAF9F7,
+    -1px 1px 0 #FAF9F7,
+    1px 1px 0 #FAF9F7,  
+    -2px 0 0 #FAF9F7,
+    2px 0 0 #FAF9F7,
+    0 2px 0 #FAF9F7,
+    0 -2px 0 #FAF9F7;
+}

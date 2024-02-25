@@ -1,0 +1,18 @@
+<header class="background-secondary flex header-content">
+  <img src="../../../assets/icons/menu-burger.png" alt="Menu Icon" class="menu-icon" (click)="sidenav.toggle()">
+  <h1 class="page-header-text">Dalton Skerlec</h1>   <!-- for now -->
+  <img src="../../../assets/logo/DSLogo-nobackground.png" alt="DS Logo" class="header-logo"/>
+</header>
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav mode="over" class="sidenav-drawer background-secondary">
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a routerLink="/" routerLinkActive="active">Home</a></li>
+          <li class="nav-item"><a routerLink="/about" routerLinkActive="active">About</a></li>
+        </ul>
+      </nav>
+    </mat-sidenav>
+    <mat-sidenav-content class="background-primary">
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
