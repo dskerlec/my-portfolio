@@ -4,11 +4,13 @@
   <img src="../../../assets/logo/DSLogo-nobackground.png" alt="DS Logo" class="header-logo"/>
 </header>
 <mat-sidenav-container class="sidenav-container">
-    <mat-sidenav #sidenav mode="over" class="sidenav-drawer background-secondary">
+    <mat-sidenav #sidenav mode="push" class="sidenav-drawer background-secondary">
       <nav>
-        <ul class="nav-list">
-          <li class="nav-item"><a routerLink="/" routerLinkActive="active">Home</a></li>
-          <li class="nav-item"><a routerLink="/about" routerLinkActive="active">About</a></li>
+        <ul class="nav-list flex padding-left-24">
+          <li class="nav-item font-bold"><a routerLink="/" routerLinkActive="active">Home</a></li>
+          <li class="nav-item font-bold"><a routerLink="/resume" routerLinkActive="active">Resume</a></li>
+          <li class="nav-item font-bold"><a routerLink="/about" routerLinkActive="active">About Me</a></li>
+          <li class="nav-item font-bold"><a routerLink="/projects" routerLinkActive="active">Projects</a></li>
         </ul>
       </nav>
     </mat-sidenav>
