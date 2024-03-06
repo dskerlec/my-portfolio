@@ -1,1 +1,61 @@
-<p>projects works!</p>
+<a href="../../../assets/links/SkerlecResume.pdf" download>Download Resume Here!</a>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6"> <!-- Use Bootstrap grid for overall structure -->
+            <div class="card">
+                <div class="card-body d-flex align-items-center"> <!-- Flexbox for content alignment -->
+                    <img class="card-img" src="http://localhost:10014/wp-content/uploads/2024/02/placeholder-icon-design-free-vector.jpg" alt="placeholder" />
+                    <div class="card-info">
+                        <h3>Group Management</h3>
+                        <p>Add or remove users, update permissions. Resen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <!-- Repeat the structure for the second card -->
+            <div class="card">
+                <div class="card-body d-flex align-items-center">
+                    <img class="card-img" src="http://localhost:10014/wp-content/uploads/2024/02/placeholder-icon-design-free-vector.jpg" alt="placeholder" />
+                    <div class="card-info">
+                        <h3>Group Management</h3>
+                        <p>Add or remove users, update permissions. Resen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.card-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 20px; /* Adjust spacing between image and text /
+}
+
+.card-body {
+    display: flex;
+    align-items: center; / Vertically center content within each card /
+}
+
+.card-info {
+    flex: 1; / Allows text container to fill available space /
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        flex-direction: column; / Stack image and text vertically on smaller screens /
+        align-items: start;
+    }
+
+    .card-img {
+        margin-bottom: 10px; / Adjust spacing for mobile layout */
+        margin-right: 0;
+    }
+}
+
+    </style>

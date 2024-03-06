@@ -9,7 +9,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { AboutComponent } from './pages/about/about.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
-import { ResumeComponent } from './pages/resume/resume.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +17,6 @@ import { ResumeComponent } from './pages/resume/resume.component'
     HomeComponent,
     AboutComponent,
     ProjectsComponent,
-    ResumeComponent
   ],
   imports: [
     BrowserModule,
